@@ -1,4 +1,4 @@
-baseurl = "https://zealous-joliot-50d554.netlify.app/"
+baseurl = "https://www.example.com/"
 languageCode = "en-us"
 title = "Blackburn Theme Demo"
 theme = "blackburn"
@@ -18,7 +18,7 @@ paginate = 10
   googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "Your Disqus shortname"
   # CSS name for highlight.js
-  highlightjs = "androidstudio" 
+  highlightjs = "androidstudio"
   dateFormat = "02 Jan 2006, 15:04"
 
 [menu]

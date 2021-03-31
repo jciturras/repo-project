@@ -1,0 +1,85 @@
+baseurl = "https://www.example.com/"
+languageCode = "en-us"
+title = "Meritocracia y Redistribución"
+theme = "blackburn"
+author = "Julio Iturra Sanhueza"
+copyright = "&copy; 2021"
+canonifyurls = true
+paginate = 10
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "Repositorio proyecto"
+  brand = "FONDECYT"
+  googleAnalytics = "Your Google Analytics tracking ID"
+  disqus = "Your Disqus shortname"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Inicio"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Paper"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "paper"
+    url = "/paper/"
+  [[menu.main]]
+    name = "Preparación"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "preparacion"
+    url = "/preparacion/"
+  [[menu.main]]
+    name = "Analysis"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 4
+    identifier = "analysis"
+    url = "/analysis/"  
+#  [[menu.main]]
+#    name = "Contact"
+#    pre = "<i class='fa fa-phone fa-fw'></i>"
+#    weight = 4
+#    url = "/contact/"
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  #twitter="*"
+  # gnusocial="*"
+  #facebook="*"
+  # weibo="*"
+  # tumblr="*"
+  #instagram="*"
+  # flickr="*"
+  # photo500px="*"
+  # pinterest="*"
+  # youtube="*"
+  # vimeo="*"
+  # vine="*"
+  # slideshare="*"
+  #linkedin="*"
+  # xing="*"
+  # reddit="*"
+  # hackernews="*"
+  github="jciturras"
+  # gitlab="*"
+  # bitbucket="*"
+  #stackoverflow="*"
+  # serverfault="*"
+  # steam="*"
+  # mobygames="*"
+  # lastfm="*"
+  # discogs="*"
+  # keybase="*"

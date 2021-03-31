@@ -39,12 +39,12 @@ paginate = 10
     pre = "<i class='fa fa-database fa-fw'></i>"
     weight = 3
     identifier = "preparation"
-    url = "/preparation/"
+    url = "/production/preparation/"
   [[menu.main]]
     name = "Analysis"
     pre = "<i class='fa fa-chart-pie fa-fw'></i>"
     weight = 4
-    url = "/analysis/"
+    url = "/production/analysis/"
 
 [social]
   # Link your social networking accouns to the side menu

@@ -1,6 +1,6 @@
-baseurl = "https://www.example.com/"
+baseurl = "https://repo-project.netlify.app/"
 languageCode = "en-us"
-title = "Blackburn Theme Demo"
+title = "Meritocracia y redistribución"
 theme = "blackburn"
 author = "Yoshiharu Yamashita"
 copyright = "&copy; 2016. All rights reserved."
@@ -10,52 +10,51 @@ paginate = 10
 [indexes]
   tag = "tags"
   topic = "topics"
-
 [params]
   # Shown in the home page
   subtitle = "A Hugo Theme"
-  brand = "Blackburn"
-  googleAnalytics = "Your Google Analytics tracking ID"
-  disqus = "Your Disqus shortname"
+  brand = "Fondecyt"
+  #googleAnalytics = "Your Google Analytics tracking ID"
+  #disqus = "Your Disqus shortname"
   # CSS name for highlight.js
-  highlightjs = "androidstudio"
-  dateFormat = "02 Jan 2006, 15:04"
+  #highlightjs = "androidstudio"
+  #dateFormat = "02 Jan 2006, 15:04"
 
 [menu]
   # Shown in the side menu.
-  [[menu.main]]
+  [[menu.main]] 
     name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
+    pre = "<i class='fa fa-home fa-fw'></i>" 
     weight = 1
     identifier = "home"
-    url = "/"
+    url = "/home/"
   [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
+    name = "Paper"
+    pre = "<i class='fa fa-sticky-note fa-fw'></i>"
     weight = 2
-    identifier = "post"
-    url = "/post/"
+    identifier = "paper"
+    url = "/paper/"
   [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
+    name = "Preparation"
+    pre = "<i class='fa fa-database fa-fw'></i>"
     weight = 3
-    identifier = "about"
-    url = "/about/"
+    identifier = "preparation"
+    url = "/preparation/"
   [[menu.main]]
-    name = "Contact"
-    pre = "<i class='fa fa-phone fa-fw'></i>"
+    name = "Analysis"
+    pre = "<i class='fa fa-chart-pie fa-fw'></i>"
     weight = 4
-    url = "/contact/"
+    url = "/analysis/"
 
 [social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
-  twitter="*"
+  #twitter="*"
   # gnusocial="*"
-  facebook="*"
+  #facebook="*"
   # weibo="*"
   # tumblr="*"
-  instagram="*"
+  #instagram="*"
   # flickr="*"
   # photo500px="*"
   # pinterest="*"
@@ -63,14 +62,14 @@ paginate = 10
   # vimeo="*"
   # vine="*"
   # slideshare="*"
-  linkedin="*"
+  #linkedin="*"
   # xing="*"
   # reddit="*"
   # hackernews="*"
-  github="yoshiharuyamashita"
+  #github="yoshiharuyamashita"
   # gitlab="*"
   # bitbucket="*"
-  stackoverflow="*"
+  #stackoverflow="*"
   # serverfault="*"
   # steam="*"
   # mobygames="*"

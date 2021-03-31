@@ -2,15 +2,11 @@
 date: "2014-04-09"
 description: About me and this site
 sidemenu: "true"
-title: Preparación
+title: About
 ---
 
-# Datos
+
+# Inicio
 
 
-## cargar datos
-
-``
-summary()
-``
-
+El proyecto

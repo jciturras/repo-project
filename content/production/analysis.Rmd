@@ -1,0 +1,36 @@
+---
+date: "2014-04-09"
+description: How to contact me
+sidemenu: "true"
+title: Contact
+---
+
+
+```{r}
+if (!require("pacman")) install.packages("pacman")  #**ESTO SE DEBE CORRER UNA SOLA VEZ** (!)
+pacman::p_load(dplyr, sjlabelled,summarytools, ggplot2,ggExtra,lme4,texreg)
+```
+
+```{r}
+popdata <- read_spss("https://jciturras.github.io/ayudantia-sol3051/data/popular2.sav")
+popdata<- popdata %>% dplyr::select(pupil,class,popular,sex,extrav,texp)
+```
+
+
+```{r}
+popdata %>% filter(class %in% c(82,74,33)) %>% 
+  ggplot() + 
+  geom_density(aes(x = popular,fill=factor(class,levels = c(82,74,33))),alpha=0.3) +
+  geom_vline(xintercept = mean(popdata$popular),color="red",linetype="dashed", size=1) +
+  ylab("Densidad")+
+  xlab("Popularidad alumno") +
+  scale_fill_discrete("ID Curso")+
+  theme_classic()+ 
+  theme(legend.position = "top") ->popdata
+```
+
+
+```{r}
+ggsave(popdata,filename = "../output/images/popdata.png",device = "png",units = "cm",width = 25,height = 15)
+```
+

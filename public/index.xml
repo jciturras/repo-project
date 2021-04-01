@@ -39,7 +39,7 @@ Esta es una imagen creada en analysis.</description>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>/production/analysis/</guid>
-      <description>Load data models </description>
+      <description>if (!require(&amp;quot;pacman&amp;quot;)) install.packages(&amp;quot;pacman&amp;quot;) #**ESTO SE DEBE CORRER UNA SOLA VEZ** (!)## Loading required package: pacmanpacman::p_load(dplyr, sjlabelled,summarytools, ggplot2,ggExtra,lme4,texreg)popdata &amp;lt;- read_spss(&amp;quot;https://jciturras.github.io/ayudantia-sol3051/data/popular2.sav&amp;quot;)popdata&amp;lt;- popdata %&amp;gt;% dplyr::select(pupil,class,popular,sex,extrav,texp)popdata %&amp;gt;% filter(class %in% c(82,74,33)) %&amp;gt;% ggplot() + geom_density(aes(x = popular,fill=factor(class,levels = c(82,74,33))),alpha=0.3) +geom_vline(xintercept = mean(popdata$popular),color=&amp;quot;red&amp;quot;,linetype=&amp;quot;dashed&amp;quot;, size=1) +ylab(&amp;quot;Densidad&amp;quot;)+xlab(&amp;quot;Popularidad alumno&amp;quot;) +scale_fill_discrete(&amp;quot;ID Curso&amp;quot;)+theme_classic()+ theme(legend.position = &amp;quot;top&amp;quot;) -&amp;gt;popdataggsave(popdata,filename = &amp;quot;../output/images/popdata.png&amp;quot;,device = &amp;quot;png&amp;quot;,units = &amp;quot;cm&amp;quot;,width = 25,height = 15)</description>
     </item>
     
     <item>
@@ -48,7 +48,7 @@ Esta es una imagen creada en analysis.</description>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>/production/preparation/</guid>
-      <description>Load data Recode </description>
+      <description>Load dataRecode</description>
     </item>
     
     <item>

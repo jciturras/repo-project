@@ -1,0 +1,27 @@
+---
+date: "2014-04-09"
+description: How to contact me
+sidemenu: "true"
+title: Contact
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
+
+
+<pre class="r"><code>if (!require(&quot;pacman&quot;)) install.packages(&quot;pacman&quot;)  #**ESTO SE DEBE CORRER UNA SOLA VEZ** (!)</code></pre>
+<pre><code>## Loading required package: pacman</code></pre>
+<pre class="r"><code>pacman::p_load(dplyr, sjlabelled,summarytools, ggplot2,ggExtra,lme4,texreg)</code></pre>
+<pre class="r"><code>popdata &lt;- read_spss(&quot;https://jciturras.github.io/ayudantia-sol3051/data/popular2.sav&quot;)
+popdata&lt;- popdata %&gt;% dplyr::select(pupil,class,popular,sex,extrav,texp)</code></pre>
+<pre class="r"><code>popdata %&gt;% filter(class %in% c(82,74,33)) %&gt;% 
+  ggplot() + 
+  geom_density(aes(x = popular,fill=factor(class,levels = c(82,74,33))),alpha=0.3) +
+  geom_vline(xintercept = mean(popdata$popular),color=&quot;red&quot;,linetype=&quot;dashed&quot;, size=1) +
+  ylab(&quot;Densidad&quot;)+
+  xlab(&quot;Popularidad alumno&quot;) +
+  scale_fill_discrete(&quot;ID Curso&quot;)+
+  theme_classic()+ 
+  theme(legend.position = &quot;top&quot;) -&gt;popdata</code></pre>
+<pre class="r"><code>ggsave(popdata,filename = &quot;../output/images/popdata.png&quot;,device = &quot;png&quot;,units = &quot;cm&quot;,width = 25,height = 15)</code></pre>

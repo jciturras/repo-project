@@ -204,6 +204,16 @@
 <script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
 
 
+<div id="setup" class="section level1">
+<h1>Setup</h1>
+<p>En el caso de paper.Rmd, debemos usar:</p>
+<pre class="r"><code>knitr::opts_knit$set(base.url = &quot;../&quot;) #relative path for .html output file
+# knitr::opts_knit$set(root.dir = &quot;../&quot;) #relative path for chunks within .rmd files</code></pre>
+<p>Principalmente porque necesitamos que al crear el html, la ruta tenga un “../” al principio para que capture las imágenes guardadas en la carpeta output/images. Lo mismo para usar los RData de las tables.</p>
+<p>Esta es una imagen creada en analysis.Rmd, y que luego guardamos en <code>output/images</code></p>
+<pre class="r"><code>knitr::include_graphics(&quot;output/images/corpoly.png&quot;) </code></pre>
+<p><img src="../output/images/corpoly.png" width="50%" /></p>
+</div>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
 </div>
@@ -212,11 +222,6 @@
 </div>
 <div id="discussion" class="section level1">
 <h1>Discussion</h1>
-<ul>
-<li>Siempre hay que usar “../” ya que al compilar el sitio, en la carpeta “public”, se crea una carpeta “paper” al mismo nivel que la carpeta “output”.</li>
-</ul>
-<pre class="r"><code>knitr::include_graphics(&quot;output/images/corpoly.png&quot;) </code></pre>
-<p><img src="output/images/corpoly.png" width="1062" /></p>
 </div>
 
 </div>
@@ -233,6 +238,9 @@
 
 
 
+<script src="/js/math-code.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
 
 
 </body>

@@ -28,7 +28,9 @@
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>/paper/</guid>
-      <description>IntroductionMethodsDiscussionSiempre hay que usar “../” ya que al compilar el sitio, en la carpeta “public”, se crea una carpeta “paper” al mismo nivel que la carpeta “output”.knitr::include_graphics(&amp;quot;output/images/corpoly.png&amp;quot;) </description>
+      <description>SetupEn el caso de paper.Rmd, debemos usar:
+knitr::opts_knit$set(base.url = &amp;quot;../&amp;quot;) #relative path for .html output file# knitr::opts_knit$set(root.dir = &amp;quot;../&amp;quot;) #relative path for chunks within .rmd filesPrincipalmente porque necesitamos que al crear el html, la ruta tenga un “../” al principio para que capture las imágenes guardadas en la carpeta output/images. Lo mismo para usar los RData de las tables.
+Esta es una imagen creada en analysis.</description>
     </item>
     
     <item>

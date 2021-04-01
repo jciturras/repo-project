@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meritocracia y redistribución</title>
-    <link>/./</link>
+    <link>/</link>
     <description>Recent content on Meritocracia y redistribución</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/./index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>/./home/</link>
+      <link>/home/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/./home/</guid>
+      <guid>/home/</guid>
       <description>InicioEl proyecto
 </description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/./paper/</link>
+      <link>/paper/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/./paper/</guid>
+      <guid>/paper/</guid>
       <description>IntroductionMethodsDiscussionSiempre hay que usar “../” ya que al compilar el sitio, en la carpeta “public”, se crea una carpeta “paper” al mismo nivel que la carpeta “output”.knitr::include_graphics(&amp;quot;output/images/corpoly.png&amp;quot;) </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/./production/analysis/</link>
+      <link>/production/analysis/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/./production/analysis/</guid>
+      <guid>/production/analysis/</guid>
       <description>Load data models </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/./production/preparation/</link>
+      <link>/production/preparation/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/./production/preparation/</guid>
+      <guid>/production/preparation/</guid>
       <description>Load data Recode </description>
     </item>
     
     <item>
       <title>PPM-S</title>
-      <link>/./post01/</link>
+      <link>/post01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/./post01/</guid>
+      <guid>/post01/</guid>
       <description>This is the project website for the development and testing of the Perceptions and Preferences for Meritocracy Scale.Last update: jueves 01 abril 2021 13:32:26
 Authors:Juan Carlos Castillo, Departamento de Sociología, Universidad de Chile. juancastillov@uchile.cl, jc-castillo.comJulio Iturra, Centro de Estudios de Conflicto y Cohesión Social - COESFrancisco Meneses, Departamento de Sociología, Universidad de Chile.Luis Maldonado, Instituto de Sociología, Pontificia Universidad Católica de ChileIn brief:Based on a previous paper that proposed a distinction between perceptions and preferences for meritocracy and tested it with secondary survet data [@Castilloetal2019], we designed and tested a scale in a longitudinal three-wave online panel in Chile (N=1.</description>
     </item>

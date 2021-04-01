@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Productions on Meritocracia y redistribución</title>
-    <link>/./production/</link>
+    <link>/production/</link>
     <description>Recent content in Productions on Meritocracia y redistribución</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/./production/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/production/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Contact</title>
-      <link>/./production/analysis/</link>
+      <link>/production/analysis/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/./production/analysis/</guid>
+      <guid>/production/analysis/</guid>
       <description>Load data models </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/./production/preparation/</link>
+      <link>/production/preparation/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/./production/preparation/</guid>
+      <guid>/production/preparation/</guid>
       <description>Load data Recode </description>
     </item>
     

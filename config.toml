@@ -1,4 +1,4 @@
-baseurl = "."
+baseurl = "https://repo-project.netlify.app/"
 languageCode = "en-us"
 title = "Meritocracia y redistribución"
 theme = "blackburn"

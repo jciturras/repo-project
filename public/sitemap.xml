@@ -3,45 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/./home/</loc>
+    <loc>/home/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/./paper/</loc>
+    <loc>/paper/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/./production/analysis/</loc>
+    <loc>/production/analysis/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/./production/preparation/</loc>
+    <loc>/production/preparation/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/./</loc>
+    <loc>/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/./production/</loc>
+    <loc>/production/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/./post01/</loc>
+    <loc>/post01/</loc>
   </url>
   
   <url>
-    <loc>/./tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
   <url>
-    <loc>/./topics/</loc>
+    <loc>/topics/</loc>
   </url>
   
 </urlset>

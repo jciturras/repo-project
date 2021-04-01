@@ -1,0 +1,23 @@
+---
+date: "2014-04-09"
+description: About me and this site
+sidemenu: "true"
+title: About
+---
+
+
+# Introduction
+
+# Methods
+
+# Discussion
+
+
+* Siempre hay que usar "../" ya que al compilar el sitio, en la carpeta "public", se crea una carpeta "paper" al mismo nivel que la carpeta "output".
+
+
+```{r}
+knitr::include_graphics("output/images/corpoly.png") 
+```
+
+
